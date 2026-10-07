@@ -1,0 +1,22 @@
+{
+  "name": "hooman-eve-agent",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "eve dev",
+    "build": "eve build",
+    "start": "eve start"
+  },
+  "dependencies": {
+    "ai": "^7.0.122",
+    "eve": "^0.71.3",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^5.9.3"
+  }
+}
